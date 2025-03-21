@@ -47,14 +47,20 @@ a:hover {
 
 /* Footer */
 footer {
-    background-color: #0073e6;
+    background-color: #005bb5;
     color: white;
     padding: 15px;
     margin-top: 20px;
 }
 
-footer p {
-    margin: 5px 0;
+/* Link di Footer */
+footer a {
+    color: #ffcc00; /* Warna kuning agar kontras */
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* Responsif untuk HP */
