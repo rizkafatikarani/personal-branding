@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(to right, #0073e6, #005bb5);
+    background: red; /* Warna merah */
     color: white;
     padding: 20px;
 }
@@ -36,7 +36,7 @@ section {
 
 /* Link */
 a {
-    color: #0073e6;
+    color: red; /* Warna merah agar selaras dengan tema */
     text-decoration: none;
     font-weight: bold;
 }
@@ -47,7 +47,7 @@ a:hover {
 
 /* Footer */
 footer {
-    background-color: #005bb5;
+    background-color: red; /* Warna merah */
     color: white;
     padding: 15px;
     margin-top: 20px;
@@ -56,7 +56,7 @@ footer {
 
 /* Link di Footer */
 footer a {
-    color: #ffcc00; /* Warna kuning agar kontras */
+    color: yellow; /* Warna kuning agar kontras */
     font-weight: bold;
     font-size: 16px; /* Perbesar sedikit agar lebih terbaca */
     display: inline-block;
@@ -66,6 +66,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
 /* Responsif untuk HP */
 @media (max-width: 600px) {
     section {
