@@ -51,18 +51,21 @@ footer {
     color: white;
     padding: 15px;
     margin-top: 20px;
+    text-align: center;
 }
 
 /* Link di Footer */
 footer a {
     color: #ffcc00; /* Warna kuning agar kontras */
     font-weight: bold;
+    font-size: 16px; /* Perbesar sedikit agar lebih terbaca */
+    display: inline-block;
+    margin-left: 5px;
 }
 
 footer a:hover {
     text-decoration: underline;
 }
-
 /* Responsif untuk HP */
 @media (max-width: 600px) {
     section {
